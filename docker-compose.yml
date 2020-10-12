@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  gem:
+    build:
+      context: .
+    image: digital_cable/dev:latest
+    volumes:
+      - .:/digital_cable
+      - /digital_cable/node_modules

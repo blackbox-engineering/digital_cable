@@ -1,0 +1,36 @@
+{
+  "name": "digital_cable",
+  "version": "0.0.1",
+  "description": "DigitalCable helps you create great real-time user experiences by making it simple to trigger client-side DOM changes from server-side Ruby.",
+  "keywords": [
+    "ruby",
+    "rails",
+    "websockets",
+    "actioncable",
+    "cable",
+    "ssr",
+    "stimulus_reflex",
+    "client-side",
+    "dom"
+  ],
+  "homepage": "https://github.com/ccollins/digital-cable",
+  "bugs": {
+    "url": "https://github.com/ccollins/digital-cable/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:ccollins/digital_cable.git"
+  },
+  "license": "",
+  "author": "Chuck Collins <chuck.collins@gmail.com>",
+  "main": "./digital_cable.js",
+  "scripts": {
+    "prettier-standard-check": "yarn run prettier-standard --check ./digital_cable.js"
+  },
+  "dependencies": {
+    "morphdom": "^2.6.1"
+  },
+  "devDependencies": {
+    "prettier-standard": "^16.1.0"
+  }
+}
