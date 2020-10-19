@@ -320,7 +320,6 @@ const perform = (operation) => {
   let detail = operation.options;
 
   try {
-
     if (detail.selector) {
       detail.element = detail.xpath ? xpathToElement(detail.selector) : document.querySelector(detail.selector);
     } else {

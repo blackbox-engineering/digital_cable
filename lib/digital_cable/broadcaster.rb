@@ -1,7 +1,7 @@
 module DigitalCable
-  module Broadcaster
 
-    class DigitalCableError < StandardError; end
+  class DigitalCableError < StandardError; end
+  module Broadcaster
 
     OPERATIONS = [
       :add_css_class,
@@ -40,7 +40,7 @@ module DigitalCable
     def broadcast_to(identifier, model, method:, options:)
       verify_method!(method)
 
-      identifier.broadcast model, {
+      identifier.broadcast_to model, {
         "digitalCable" => true,
         "operation" => { method: method.to_s.camelize(:lower), options: options }
       }
