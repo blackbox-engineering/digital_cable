@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.authors = ["Chuck Collins"]
   gem.email = ["chuck.collins@gmail.com"]
   gem.homepage = "https://github.com/blackbox-engineering/digital-cable"
-  gem.summary = "Out-of-Band Server Triggered DOM Operations"
+  gem.summary = "Out-of-Band Server Triggered DOM Operations and Reflexes"
 
-  gem.files = Dir["lib/**/*.rb", "bin/*", "[A-Z]*"]
+  gem.files = Dir["lib/**/*.rb", "bin/*", "javascript/*", "[A-Z]*"]
   gem.test_files = Dir["spec/**/*.rb"]
 
   gem.add_dependency "rails", ">= 5.2"
