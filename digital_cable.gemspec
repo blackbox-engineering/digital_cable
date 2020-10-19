@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.version = DigitalCable::VERSION
   gem.authors = ["Chuck Collins"]
   gem.email = ["chuck.collins@gmail.com"]
-  gem.homepage = "https://github.com/ccollins/digital-cable"
+  gem.homepage = "https://github.com/blackbox-engineering/digital-cable"
   gem.summary = "Out-of-Band Server Triggered DOM Operations"
 
   gem.files = Dir["lib/**/*.rb", "bin/*", "[A-Z]*"]
